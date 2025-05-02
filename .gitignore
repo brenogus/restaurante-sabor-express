@@ -1,0 +1,45 @@
+# Byte-compiled / cache / logs
+__pycache__/
+*.py[cod]
+*.log
+
+# Diretórios de ambiente virtual
+venv/
+env/
+ENV/
+.venv/
+.ENV/
+
+# Arquivos temporários do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos de configuração de IDEs (VSCode, PyCharm, etc.)
+.vscode/
+.idea/
+
+# Arquivos de dependências gerados
+*.egg-info/
+dist/
+build/
+
+# Arquivos de testes ou temporários
+*.cover
+.coverage
+coverage.xml
+htmlcov/
+
+# Arquivos de configuração locais
+.env
+*.env
+
+# SQLite ou outros bancos locais
+*.sqlite3
+*.db
+
+# Cache do pip
+pip-wheel-metadata/
+__pypackages__/
+
+# Codigos reutilizaveis ( mas não agora)
+codigos_guardados.txt
