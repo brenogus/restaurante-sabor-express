@@ -34,7 +34,7 @@ def get_restaurantes(restaurante: str = Query(None)):
         return {'Erro':f'{response.status_code} - {response.text}'} # Fechamento do condicional que verifica se a requisição teve resposta, nesse caso é para quando a conexão falha
 
 
-# Para ligar o servidor uvicorn digite no terminal "uvicorn api.main:app --reload"
+# Para ligar o servidor uvicorn digite no terminal "uvicorn app.api.main:app --reload"
 # Aperte ctrl e clique na URL indicada no terminal para acessar a página no navegador
 # Para acessar os dados da API vc deve digitar na barra do navegador após o numero da porta "/caminho/usado/na/criação/da/API" (fica no decorator da função)
 # para digitar uma query escreva "URL/caminho/usado/na/criação/da/API/?nome_do_parametro_da_função=valor_que_quer_pesquisar"
