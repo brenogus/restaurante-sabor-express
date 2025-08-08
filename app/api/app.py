@@ -23,6 +23,6 @@ else:
     print(f'O erro foi {response.status_code}') # Condicional para caso a conexão da requisição não seja satisfeita
 
 for nome_do_restaurante, dados in dados_restaurante.items(): # Laço for para criar os arquivos txt para cada restaurante
-    nome_do_arquivo = f'cardapios/{nome_do_restaurante}.json' # Salva os arquivos na pasta cardapios
+    nome_do_arquivo = f'restaurante-sabor-express/app/api/cardapios/{nome_do_restaurante}.json' # Salva os arquivos na pasta cardapios
     with open(nome_do_arquivo,'w') as arquivo_restaurante: # Opção 'w' significa write (criar arquivo)
         json.dump(dados,arquivo_restaurante,indent=4)

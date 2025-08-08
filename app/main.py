@@ -19,7 +19,7 @@ for nome, cardapio in zip(nomes_restaurantes, cardapios):
 
 
 def main():
-   restaurantes_dict[nomes_restaurantes[0]].listar_cardapio
+   restaurantes_dict[nomes_restaurantes[1]].listar_cardapio
 
 if __name__ == '__main__':
     main()
